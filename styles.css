@@ -1,13 +1,19 @@
-html, body {
+html {
     margin: 0px;
     padding: 0px;
     height: 100%;
 }
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-image: url("background01.jpg");
+    background-size: 100% 130%;
+    background-attachment: fixed;
+}
 .background {
     width: 100%;
-    min-height: fit-content;
-    background-color: rosybrown;
-    
+    min-height: fit-content;    
 }
 .pdf {
     width: 70%;
